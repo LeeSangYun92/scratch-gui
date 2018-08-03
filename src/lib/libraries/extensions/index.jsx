@@ -8,6 +8,7 @@ import translateImage from './translate.png';
 import microbitImage from './microbit.png';
 import ev3Image from './ev3.png';
 import wedoImage from './wedo.png';
+import modiImage from './modi.png';
 
 import microbitDeviceImage from './device-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './device-connection/microbit/microbit-small.svg';
@@ -15,6 +16,23 @@ import ev3DeviceImage from './device-connection/ev3/ev3-hub-illustration.svg';
 import ev3MenuImage from './device-connection/ev3/ev3-small.svg';
 
 export default [
+    {
+        name: 'MODI',
+        extensionId: 'modi',
+        iconURL: modiImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="LUXROBO MODI"
+                description="CREATIVE MODI"
+                id="gui.extension.modi.description"
+            />
+        ),
+        featured: true,
+        disabled: false
+        // launchDeviceConnectionFlow: true,
+        // deviceImage: ev3DeviceImage,
+        // smallDeviceImage: ev3MenuImage,
+    },
     {
         name: (
             <FormattedMessage
