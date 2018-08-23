@@ -4,7 +4,7 @@ src/lib/libraries/extensions/index.jsx 파일 내에 MODI 메뉴를 추가한 �
 
 # 구동 방법
 
-clone 하신 후 npm install -> npm link scratch-vm -> npm start
+clone 하신 후 npm install -> npm link scratch-vm -> npm start <br>
 (수정된 npm link scratch-vm 을 꼭 해주셔야 수정된 vm으로 적용되어 gui상에서 구동됩니다.)
 
 서버가 켜지면 http://localhost:8601로 접속하시면 됩니다.
