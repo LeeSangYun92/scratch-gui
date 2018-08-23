@@ -1,8 +1,8 @@
-# 기존 오픈소스에서 추가한 부분
+## 기존 오픈소스에서 추가한 부분
 
 src/lib/libraries/extensions/index.jsx 파일 내에 MODI 메뉴를 추가한 것 외엔 gui에선 수정한 부분은 없습니다.
 
-# 구동 방법
+## 구동 방법
 
 clone 하신 후 npm install -> npm link scratch-vm -> npm start <br>
 (수정된 npm link scratch-vm 을 꼭 해주셔야 수정된 vm으로 적용되어 gui상에서 구동됩니다.)
